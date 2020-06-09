@@ -1,0 +1,64 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0;
+  padding: 0;
+   
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.contenido1 {
+  width: 100%;
+  margin: auto;
+  max-width: 800px;
+  flex-direction: row;
+  display: flex;
+}
+
+.noticia {
+  margin-top: 30px;
+  max-width: 100%;
+  width: 800px;
+}
+
+.noticia .titulo {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.noticia .subtitulo {
+  font-size: 20px;
+  font-weight: 200;
+  margin: 20px 0;
+}
+
+.noticia .imagen img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.noticia p {
+  font-size: 22px;
+  text-align: justify;
+  font-weight: 200;
+  margin: 5px;
+}
+
+.noticia .importante {
+  background-color: yellow;
+  font-weight: 600;
+}
+
+blockquote {
+  font-weight: 200;
+  font-size: 20px;
+  text-align: justify;
+  margin: 0px 20px 0px 20px;
+  }
+
+video {
+  width: 100%;
+}
